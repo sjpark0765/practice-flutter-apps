@@ -85,5 +85,18 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - assets/game_streaming/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/game_streaming/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 500
+        #- asset: assets/game_streaming/fonts/poppins/Poppins-Bold.ttf
+        #  weight: 700
+        #- asset: assets/game_streaming/fonts/poppins/Poppins-Medium.ttf
+        #  weight: 400
