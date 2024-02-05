@@ -7,7 +7,7 @@ class TrendindListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 250,
       child: ListView.builder(
           shrinkWrap: true,

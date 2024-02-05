@@ -19,7 +19,7 @@ class TopClipCard extends StatelessWidget {
               image: DecorationImage(
                   fit: BoxFit.cover, image: AssetImage(data.thumbnail))),
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         Row(
@@ -28,7 +28,7 @@ class TopClipCard extends StatelessWidget {
             CircleAvatar(
               backgroundImage: AssetImage(data.userAvatar),
             ),
-            SizedBox(
+            const SizedBox(
               width: 10,
             ),
             Column(

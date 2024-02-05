@@ -34,7 +34,7 @@ class FishOrder extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              High(),
+              const High(),
             ],
           ),
         ));
@@ -75,10 +75,10 @@ class SpicyA extends StatelessWidget {
         Text('Fish size: ${Provider.of<FishModel>(context).size}',
             style: const TextStyle(
                 fontSize: 16, color: Colors.red, fontWeight: FontWeight.bold)),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
-        Middle(),
+        const Middle(),
       ],
     );
   }
@@ -120,7 +120,7 @@ class SpicyB extends StatelessWidget {
         const SizedBox(
           height: 20,
         ),
-        Low(),
+        const Low(),
       ],
     );
   }

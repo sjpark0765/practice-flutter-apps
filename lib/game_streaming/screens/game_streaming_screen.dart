@@ -11,6 +11,7 @@ class GameStreamingScreen extends StatefulWidget {
   const GameStreamingScreen({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _GameStreamingScreenState createState() => _GameStreamingScreenState();
 }
 
@@ -34,8 +35,7 @@ class _GameStreamingScreenState extends State<GameStreamingScreen> {
             child: Row(
               children: [
                 const CircleAvatar(
-                  backgroundImage:
-                      NetworkImage("https://via.placeholder.com/150"),
+                  backgroundImage: NetworkImage("https://via.placeholder.com/150"),
                 ),
                 const SizedBox(
                   width: 20,
@@ -52,7 +52,7 @@ class _GameStreamingScreenState extends State<GameStreamingScreen> {
           ],
         ),
         body: SingleChildScrollView(
-          physics: BouncingScrollPhysics(),
+          physics: const BouncingScrollPhysics(),
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Column(

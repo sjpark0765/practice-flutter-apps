@@ -9,7 +9,7 @@ class CategoryListView extends StatelessWidget {
   final List<String> _categories;
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
         height: 40,
         child: ListView.builder(
             itemCount: _categories.length,
@@ -20,14 +20,14 @@ class CategoryListView extends StatelessWidget {
                   Container(
                       padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(
-                          color: Color(0xff0c1731),
+                          color: const Color(0xff0c1731),
                           borderRadius: BorderRadius.circular(10)),
                       child: Center(
                           child: Text(
                         _categories[index],
                         style: Theme.of(context).textTheme.titleMedium,
                       ))),
-                  SizedBox(width: 10)
+                  const SizedBox(width: 10)
                 ],
               );
             }));

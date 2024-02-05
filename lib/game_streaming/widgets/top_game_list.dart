@@ -7,7 +7,7 @@ class TopGameList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 170,
       child: ListView.builder(
           shrinkWrap: true,
@@ -17,10 +17,6 @@ class TopGameList extends StatelessWidget {
             return Row(
               children: [TopGameCard(data: topGames[index])],
             );
-            // return GestureDetector(
-            //   onTap: () {},
-            //   child: TopGameCard(data: topGames[index]),
-            // );
           }),
     );
   }
