@@ -1,8 +1,20 @@
 import 'package:flutter/material.dart';
-// import 'package:practice_flutter_apps/provider_1/provider_app_01.dart';
-import 'package:practice_flutter_apps/game_streaming/game_streaming.dart';
 
 void main() {
   // runApp(const ProviderApp01());
-  runApp(const GameStreamingApp());
+  runApp(const EmptyApp());
+}
+
+class EmptyApp extends StatelessWidget {
+  const EmptyApp({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext buildContext) {
+    return const MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text("Empty APP"),
+        ),
+      ),
+    );
+  }
 }
