@@ -12,7 +12,7 @@ class EmptyApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text("Empty APP"),
+          child: Text("Empty APP1"),
         ),
       ),
     );
