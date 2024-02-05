@@ -8,7 +8,7 @@ void main() {
 class EmptyApp extends StatelessWidget {
   const EmptyApp({Key? key}) : super(key: key);
   @override
-  Widget build(BuildContext buildContext) {
+  Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
