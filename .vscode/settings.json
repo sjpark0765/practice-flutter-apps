@@ -4,6 +4,6 @@
 	"editor.formatOnType": true,
 	"editor.formatOnPaste": false,
 	"editor.rulers": [120],
-	"editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "D2Coding, 'Courier New', monospace",
 	"files.eol": "\n"
 }
