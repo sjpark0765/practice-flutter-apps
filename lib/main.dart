@@ -1,6 +1,5 @@
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:practice_flutter_apps/features/app/splash_screen/splash_screen.dart';
 import 'package:practice_flutter_apps/features/user_auth/presentation/pages/home_page.dart';
 import 'package:practice_flutter_apps/features/user_auth/presentation/pages/login_page.dart';
