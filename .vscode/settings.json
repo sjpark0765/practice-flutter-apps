@@ -3,7 +3,7 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnType": true,
 	"editor.formatOnPaste": false,
-	"editor.rulers": [120],
+	"editor.rulers": [160],
 	"editor.fontFamily": "D2Coding, 'Courier New', monospace",
 	"files.eol": "\n"
 }
